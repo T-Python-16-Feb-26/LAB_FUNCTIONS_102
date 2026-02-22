@@ -1,12 +1,7 @@
 def checkAndParseStr(usrStr:str):
     '''
-    - first check that the type of the parameter is of type str
-- then, it should separates the word at any capital letter and replace it with a small letter 
-- and  should return the new modified string !
-
-Example: `helloWorldThere` should return :
-```hello world there```
-
+    this function takes  a string and checks if the input is a string, 
+    then it seperates the word from any uppercase letter 
     '''
     if type(usrStr) != str:
         return "Error: Input is not a string"

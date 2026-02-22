@@ -1,4 +1,7 @@
 def findPrime(num1: int, num2: int):
+    '''
+    this function finds the primes in the range of two inputs provided by the user
+    '''
     for num in range(num1, num2 + 1):
         if num > 1:
             for i in range(2, num):
